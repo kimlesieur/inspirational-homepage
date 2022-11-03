@@ -12,3 +12,7 @@ web-build/
 
 # macOS
 .DS_Store
+
+notes.txt
+.env
+vars.ts

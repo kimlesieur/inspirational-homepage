@@ -8,3 +8,18 @@ interface TodosState {
     other: string
 };
 
+interface Url {
+    id: number, 
+    url: string
+}
+
+interface BackgroundImagesState {
+    urls: Url[],
+    isLoadingImages: boolean,
+    hasError: boolean
+}
+
+interface Urls {
+    id: number,
+    url: string
+}
